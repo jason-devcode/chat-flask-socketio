@@ -20,7 +20,28 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    "paths": {
+      "@/*": ["./src/*"],
+      
+      // Assets alias paths
+      "@chatIcons/*": ["./src/assets/icons/*"],
+      "@chatStyles/*": ["./src/assets/styles/*"],
+      
+      // UI alias paths
+      "@chatApp/*": ["./src/ui/app/*"],
+      "@chatWidgets/*": ["./src/widgets/*"],
+      "@chatLayouts/*": ["./src/layouts/*"],
+      "@chatPages/*": ["./src/pages/*"],
+
+      // core alias paths
+      "@chatCore/*": ["./src/core/*"],
+      "@chatInterfaces/*": ["./src/core/interfaces/*"],
+      "@chatTypes/*": ["./src/core/types/*"],
+      "@chatUtils/*": ["./src/core/utils/*"],
+      "@chatApi/*": ["./src/core/api/*"],
+    }
   },
   "include": ["src"]
 }

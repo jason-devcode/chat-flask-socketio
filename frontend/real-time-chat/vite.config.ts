@@ -15,9 +15,9 @@ export default defineConfig({
 
       // UI alias paths
       "@chatApp": path.resolve(__dirname, "src/ui/app"),
-      "@chatWidgets": path.resolve(__dirname, "src/widgets"),
-      "@chatLayouts": path.resolve(__dirname, "src/layouts"),
-      "@chatPages": path.resolve(__dirname, "src/pages"),
+      "@chatWidgets": path.resolve(__dirname, "src/ui/widgets"),
+      "@chatLayouts": path.resolve(__dirname, "src/ui/layouts"),
+      "@chatPages": path.resolve(__dirname, "src/ui/pages"),
 
       // Core alias paths
       "@chatCore": path.resolve(__dirname, "src/core"),

@@ -31,9 +31,9 @@
       
       // UI alias paths
       "@chatApp/*": ["./src/ui/app/*"],
-      "@chatWidgets/*": ["./src/widgets/*"],
-      "@chatLayouts/*": ["./src/layouts/*"],
-      "@chatPages/*": ["./src/pages/*"],
+      "@chatWidgets/*": ["./src/ui/widgets/*"],
+      "@chatLayouts/*": ["./src/ui/layouts/*"],
+      "@chatPages/*": ["./src/ui/pages/*"],
 
       // core alias paths
       "@chatCore/*": ["./src/core/*"],

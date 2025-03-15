@@ -19,13 +19,15 @@ export const Viewport = (
    * @returns {React.CSSProperties} The computed styles.
    */
   const buildStyles = useCallback(
-    () => ({
+    (): React.CSSProperties => ({
       ...(props.fullyCentered
         ? {
             justifyContent: "center",
             alignItems: "center",
           }
         : {}),
+        width: "100%",
+        height: "100%",
     }),
     [props.fullyCentered]
   );

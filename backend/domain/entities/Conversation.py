@@ -7,3 +7,4 @@ class Conversation(dataclass):
     name: str
     created_at: date
     participants: list[int]
+    active_days: list[date]

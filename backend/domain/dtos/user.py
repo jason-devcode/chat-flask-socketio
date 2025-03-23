@@ -1,17 +1,16 @@
 from pydantic import BaseModel
 
-class CreateUserDTO:
-    ...
 
-class ReadUserDTO:
-    ...
-
-class UpdateUserDTO:
-    ...
-
-class DeleteUserDTO:
-    ...
+class CreateUserDTO: ...
 
 
-# class 
+class ReadUserDTO: ...
 
+
+class UpdateUserDTO: ...
+
+
+class DeleteUserDTO: ...
+
+
+# class

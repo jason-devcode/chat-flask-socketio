@@ -24,11 +24,11 @@
 
     "paths": {
       "@/*": ["./src/*"],
-      
+
       // Assets alias paths
       "@chatIcons/*": ["./src/assets/icons/*"],
       "@chatStyles/*": ["./src/assets/styles/*"],
-      
+
       // UI alias paths
       "@chatApp/*": ["./src/ui/app/*"],
       "@chatWidgets/*": ["./src/ui/widgets/*"],

@@ -1,4 +1,4 @@
-from mongoengine import Document, StringField, DateField
+from mongoengine import DateField, Document, StringField
 
 
 class User(Document):
@@ -6,4 +6,3 @@ class User(Document):
     email = StringField(required=True, unique=True)
     password = StringField(required=True)
     birth = DateField(required=True)
-

@@ -1,9 +1,8 @@
-from backend.domain.repositories.repository import CommonCRUDRepository
+from backend.domain.repositories.user import UserRepository
 
 
 class CreateUserUseCase:
-    def __init__(self, user_repository: CommonCRUDRepository):
+    def __init__(self, user_repository: UserRepository):
         self.user_repository = user_repository
 
-    def execute( username: str, password: str, birth: str ):
-        ...
+    def execute(username: str, password: str, birth: str): ...

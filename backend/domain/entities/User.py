@@ -9,4 +9,4 @@ class User(dataclass):
     username: str
     password: str
     birth: date
-    roles: Roles
+    roles_bitmask: int  # store user roles in bitmask value

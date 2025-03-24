@@ -1,5 +1,5 @@
-from backend import create_app, socketio
+from infrastructure.web.apps.flask import create_app, socketio
 
 if __name__ == "__main__":
     app = create_app()
-    socketio.run(app)
+    socketio.run(app, debug=True)

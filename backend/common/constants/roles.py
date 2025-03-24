@@ -1,6 +1,8 @@
 from enum import Enum
 
 
-class Roles(Enum):
-    SUPER_ADMIN = 1
-    COMMON_USER = 2
+class RoleBitPosition(Enum):
+    """Defines bit positions for different user roles."""
+
+    USER = 0
+    ADMIN = 1

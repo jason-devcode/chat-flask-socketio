@@ -1,4 +1,4 @@
-from backend.domain.repositories.user import UserRepository
+from domain.repositories.user import UserRepository
 
 
 class CreateUserUseCase:

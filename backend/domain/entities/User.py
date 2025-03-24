@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from datetime import date
 
-from backend.common.constants.roles import Roles
+from common.constants.roles import Roles
 
 
 class User(dataclass):

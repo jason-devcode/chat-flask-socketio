@@ -1,6 +1,6 @@
 from functools import reduce
 
-from backend.common.constants.roles import RoleBitPosition
+from common.constants.roles import RoleBitPosition
 
 
 def get_role_bitmask(role: RoleBitPosition) -> int:

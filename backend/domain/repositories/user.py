@@ -1,6 +1,6 @@
 from abc import ABC
 
-from backend.domain.entities.User import User
+from domain.entities.User import User
 
 
 class UserRepository(ABC):

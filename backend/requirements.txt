@@ -11,6 +11,7 @@ fastapi==0.115.12
 fastapi-socketio==0.0.10
 filelock==3.18.0
 Flask==3.1.0
+Flask-JWT-Extended==4.7.1
 Flask-SocketIO==5.5.1
 h11==0.14.0
 identify==2.6.9
@@ -27,6 +28,7 @@ pluggy==1.5.0
 pre_commit==4.2.0
 pydantic==2.10.6
 pydantic_core==2.27.2
+PyJWT==2.10.1
 pymongo==4.11.3
 pytest==8.3.5
 python-engineio==4.11.2

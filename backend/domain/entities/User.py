@@ -1,10 +1,9 @@
 from dataclasses import dataclass
 from datetime import date
 
-from common.constants.roles import Roles
 
-
-class User(dataclass):
+@dataclass
+class User:
     id: str
     username: str
     password: str

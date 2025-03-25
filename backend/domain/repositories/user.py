@@ -13,6 +13,9 @@ class UserRepository(ABC):
     def get_by_id(self, id: str) -> User | None:
         raise Exception("get user by id is not implemented")
 
+    def get_by_username(self, id: str) -> User | None:
+        raise Exception("get user by username is not implemented")
+
     def delete_by_id(self, id: str) -> bool | None:
         raise Exception("Delete user method is not implemented")
 

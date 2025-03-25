@@ -1,6 +1,6 @@
 from common.utils.logger import Logger
 from common.utils.sanitize_password import sanitize_password
-from domain.repositories.user import UserRepository
+from domain.ports.repositories.user import UserRepository
 
 
 class SignUpUseCase:
